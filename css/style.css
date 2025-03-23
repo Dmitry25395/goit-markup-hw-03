@@ -5,6 +5,8 @@ body {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -12,7 +14,27 @@ a {
 button {
   cursor: pointer;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /*---------HEADER-----*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .hedear-styless {
 }
 .header-navigation {
@@ -80,6 +102,8 @@ button {
 /*--------HERO-------*/
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
+  height: 600px;
+  flex-shrink: 0;
 }
 .hero-title {
   color: var(--WHITE, #fff);
@@ -89,6 +113,8 @@ button {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
+  padding-top: 188px;
+  padding-bottom: 48px;
 }
 .hero-btn {
   color: var(--WHITE, #fff);
@@ -109,6 +135,8 @@ button {
 /*-------FEATURES----*/
 .features {
   background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .features-list {
 }
@@ -137,6 +165,8 @@ button {
 /*-----OUR TEAM----*/
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -175,6 +205,8 @@ button {
 /*-----Portfolio----*/
 .portfolio {
   background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -211,6 +243,8 @@ button {
 /*Footer*/
 .site-footer {
   background-color: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 .site-footer-logo {
   font-family: "Raleway", sans-serif;
