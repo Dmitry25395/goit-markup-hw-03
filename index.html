@@ -6,10 +6,11 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -65,7 +66,7 @@
       </section>
       <section id="features" class="features">
         <div class="container">
-          <h2 hidden>Features</h2>
+          <h2 hidden class="visually-hidden">Features</h2>
           <ul class="features-list">
             <li class="features-item">
               <h3 class="features-subtitle">Strategy</h3>
@@ -74,7 +75,7 @@
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="fetures-item">
+            <li class="features-item">
               <h3 class="features-subtitle">Punctuality</h3>
               <p class="features-item-text">
                 Bring the key message to the brand's audience for the best price
@@ -109,8 +110,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name-subtitle">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-list-item">
+                <h3 class="team-name-subtitle">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-iten">
               <img
@@ -119,8 +122,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name-subtitle">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-list-item">
+                <h3 class="team-name-subtitle">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-iten">
               <img
@@ -129,8 +134,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name-subtitle">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-list-item">
+                <h3 class="team-name-subtitle">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-iten">
               <img
@@ -139,8 +146,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-name-subtitle">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-list-item">
+                <h3 class="team-name-subtitle">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -185,7 +194,7 @@
                 <p class="portfolio-text">App</p>
               </div>
             </li>
-            <li class="portfolio-iten">
+            <li class="portfolio-item">
               <img
                 src="./images/Project-card-4.jpg"
                 alt="Taxi Service"
@@ -197,7 +206,7 @@
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
-            <li class="portfolio-iten">
+            <li class="portfolio-item">
               <img
                 src="./images/Project-card-5.jpg"
                 alt="Screen Illustrations"
@@ -209,7 +218,7 @@
                 <p class="portfolio-text">Design</p>
               </div>
             </li>
-            <li class="portfolio-iten">
+            <li class="portfolio-item">
               <img
                 src="./images/Project-card-6.jpg"
                 alt="Online Courses"

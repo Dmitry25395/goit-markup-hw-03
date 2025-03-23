@@ -23,6 +23,9 @@ h6,
 p {
   margin: 0;
 }
+.img {
+  display: block;
+}
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -33,10 +36,12 @@ p {
 /*---------HEADER-----*/
 
 .headar-styless {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -50,6 +55,7 @@ p {
   text-transform: uppercase;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-right: 76px;
 }
 .header-logo-studio {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -78,6 +84,7 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .heder-menu-link:hover {
   color: #404bbf;
@@ -120,7 +127,8 @@ p {
   background: var(--NAVY-BLUE, #2e2f42);
   height: 600px;
   flex-shrink: 0;
-  text-align: center;
+
+  padding: 188px 0 188px;
 }
 .hero-title {
   color: var(--WHITE, #fff);
@@ -129,9 +137,9 @@ p {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
-  padding-top: 188px;
+
   padding-bottom: 48px;
-  max-width: 484px;
+  max-width: 496px;
 
   margin: 0 auto;
   text-align: center;
@@ -151,6 +159,8 @@ p {
   border: none;
   min-width: 169px;
   height: 56px;
+  display: block;
+  margin: 0 auto;
 }
 .hero-btn:hover {
   background-color: #404bbf;
@@ -162,11 +172,15 @@ p {
 }
 /*--------HERO-------*/
 /*-------FEATURES----*/
+.visually-hidden {
+  display: none;
+}
 .features {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -182,8 +196,7 @@ p {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-.fetures-item {
-}
+
 .features-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
@@ -226,6 +239,9 @@ p {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
+.team-list-item {
+  padding: 32px 0;
+}
 .team-name-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -243,6 +259,7 @@ p {
   font-style: normal;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  text-align: center;
 }
 /*-----OUR TEAM----*/
 /*-----Portfolio----*/
@@ -269,8 +286,8 @@ p {
   row-gap: 48px;
 }
 .portfolio-item {
+  paddiging: 32px 15px;
   width: calc((100% - 48px) / 3);
-  padding: 32px 15px;
 }
 .portfolio-list-item {
   padding: 32px 16px;
