@@ -23,7 +23,7 @@ h6,
 p {
   margin: 0;
 }
-.img {
+img {
   display: block;
 }
 .container {
@@ -173,7 +173,16 @@ p {
 /*--------HERO-------*/
 /*-------FEATURES----*/
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .features {
   background-color: #fff;
@@ -186,7 +195,7 @@ p {
   gap: 24px;
 }
 .features-item {
-  flex-basis: calc((100% - 72) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .features-item-text {
   color: var(--SLATE, #434455);
